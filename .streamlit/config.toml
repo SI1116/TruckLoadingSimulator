@@ -1,5 +1,6 @@
+# .streamlit/config.toml（修正版：Render向け）
 [server]
 headless = true
-port = $PORT
 address = "0.0.0.0"
 enableCORS = false
+# port は書かない（--server.port $PORT で渡す）
